@@ -46,7 +46,7 @@ export default function Portfolio() {
       description:
         "Aplikasi pemutar musik yang dibuat menggunakan HTML, CSS, dan JavaScript vanilla dengan desain yang keren dan interaktif. Mendukung berbagai genre musik.",
       tech: ["HTML", "CSS", "JavaScript"],
-      image: null, // Will use custom thumbnail
+      image: null, 
       liveUrl: "https://music-playerbayu.netlify.app/",
       customThumbnail: {
         title: "Music Player",
@@ -486,7 +486,7 @@ export default function Portfolio() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            © 2024 Bayu Samudera
+            © 2024
           </motion.p>
         </div>
       </footer>
