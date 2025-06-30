@@ -42,15 +42,15 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Music Player Rock Theme",
+      title: "Music Player",
       description:
-        "Aplikasi pemutar musik dengan tema rock Avenged Sevenfold yang dibuat menggunakan HTML, CSS, dan JavaScript vanilla dengan desain yang keren dan interaktif.",
+        "Aplikasi pemutar musik yang dibuat menggunakan HTML, CSS, dan JavaScript vanilla dengan desain yang keren dan interaktif. Mendukung berbagai genre musik.",
       tech: ["HTML", "CSS", "JavaScript"],
       image: null, // Will use custom thumbnail
       liveUrl: "https://music-playerbayu.netlify.app/",
       customThumbnail: {
         title: "Music Player",
-        subtitle: "Rock Theme",
+        subtitle: "Music App",
         gradient: "from-red-600 via-red-700 to-black",
         icon: "🎵",
       },
@@ -486,7 +486,7 @@ export default function Portfolio() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            © 2024 Bayu Samudera 
+            © 2024 Bayu Samudera
           </motion.p>
         </div>
       </footer>
